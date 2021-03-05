@@ -8,9 +8,9 @@ class Story {
   String choice1;
   String choice2;
 
-  Story(String _storyTitle, String _choice1, String _choice2) {
-    storyTitle = _storyTitle;
-    choice1 = _choice1;
-    choice2 = _choice2;
+  Story({String storyTitle, String choice1, String choice2}) {
+    storyTitle = this.storyTitle;
+    choice1 = this.choice1;
+    choice2 = this.choice2;
   }
 }
